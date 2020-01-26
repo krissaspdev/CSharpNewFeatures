@@ -18,7 +18,7 @@ namespace NewFeatures._7_1
             int? d = default;
             Console.WriteLine(d == null);
             
-            var e = new[] { default, 33, default}; // system is able to determine thar array is int
+            var e = new[] { default, 33, default}; // system is able to determine that this array is int
 
             string s = default; // setting reference type
 
